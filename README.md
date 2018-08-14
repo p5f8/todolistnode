@@ -2,7 +2,10 @@
 
 ## Improvements
 
-- GET method doesn't work.
+- GET method doesn't work because version Mongoose at connection string constructor.
+
+## TODO
+- Read the Mongoose DOC to eliminate the warning (mongoose.connect).
 
 ## To start
 
