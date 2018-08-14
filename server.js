@@ -7,7 +7,7 @@ var express = require("express"),
 
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/dbdoido');
+mongoose.connect('mongodb://localhost/TodoListdb');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
